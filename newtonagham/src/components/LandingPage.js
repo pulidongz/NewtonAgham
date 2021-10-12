@@ -39,6 +39,56 @@ const useStyles = makeStyles({
 
 export default function LandingPage() {
     const classes = useStyles();
+    const json_agri = {
+        "title": "Agritechnology & Food Security",
+        "definition": "Increasing agricultural productivity and addressing food security issues as production is likely to be hindered by the impact of climate change",
+        "posters": [
+            {
+                "title": "Development of CRISPR/Cas9-based novel vaccines against poultry viruses",
+                "url": "",
+                "thumbnail": ""
+            },
+            {
+                "title": "Local Approaches to Supporting Agricultural Productivity and Managing Impacts of Climate Variability and Change in Indigenous Communities in Aurora Province, Philippines",
+                "url": "",
+                "thumbnail": ""
+            },
+            {
+                "title": "Low-cost Portable Molecular Diagnostic Platform (LMDP) for rapid detection of select poultry pathogens in the Philippines",
+                "url": "",
+                "thumbnail": ""
+            },
+            {
+                "title": "Towards improving rice dietary fibre content and composition for human health",
+                "url": "",
+                "thumbnail": ""
+            },
+        ],
+        "videos": [
+            {
+                "title": "Assessing chemical and genetic diversity of Philippine microbes for discovery of novel natural products with applications in medicine and agriculture",
+                "url": "https://youtu.be/gvCc0TDetTE",
+                "thumbnail": "../assets/images/1_Agri/video/AgriVideo1.png"
+            },
+            {
+                "title": "Co-production of knowledge with Indigenous peoples for UN Sustainable Development Goals (SDGs) with emphasis on the Higaonon Food Ethnobotany, and Discovery of a new Begonia species in Mindanao, Philippines",
+                "url": "https://youtu.be/K3oZSRBkWGQ",
+                "thumbnail": "../assets/images/1_Agri/video/AgriVideo2.png"
+            },
+            {
+                "title": "Marine spatial planning of aquaculture facilities in the Philippines: protecting biodiversity whilst maximising economic returns for local communities",
+                "url": "https://youtu.be/AfAjNqwWxnk",
+                "thumbnail": "../assets/images/1_Agri/../assets/images/1_Agri/video/AgriVideo2.pngvideo/AgriVideo3.png"
+            },
+            {
+                "title": "Understanding Bacterial Enteric Diseases and Antimicrobial Resistance",
+                "url": "https://youtu.be/RWEQiF9har0",
+                "thumbnail": "../assets/images/1_Agri/video/AgriVideo4.png"
+            }
+        ]
+    }
+
+
     return(
         <React.Fragment>
             <Grid style={{paddingLeft: '15%', paddingRight: '15%'}}>
@@ -68,7 +118,7 @@ export default function LandingPage() {
                 <br/>
                 
                 {/* Agritechnology & Food Security */}
-                <Agri />
+                <Agri json={json_agri} />
 
                 {/* Digital Innovation & Creativity */}
                 <Digi />
@@ -81,7 +131,7 @@ export default function LandingPage() {
 
                 {/* Future Cities */}
                 <Future />
-                
+
                 {/* Health & Life Sciences */}
                 <Health />
             </Grid>

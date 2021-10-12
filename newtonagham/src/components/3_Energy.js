@@ -39,6 +39,9 @@ export default function Energy(){
             id="panel2a-header"
             >
             <Typography>Energy Security</Typography>
+            <Typography style={{color: 'gray'}}>
+                Reducing carbon emissions by enhancing energy efficiency and providing renewable energy
+            </Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>

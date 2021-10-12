@@ -39,6 +39,9 @@ export default function Envi(){
             id="panel2a-header"
             >
             <Typography>Environmental Resilience</Typography>
+            <Typography style={{color: 'gray'}}>
+                Mitigating and improving understanding of human and economic impact of natural hazards
+            </Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>

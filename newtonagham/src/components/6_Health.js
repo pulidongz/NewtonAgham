@@ -39,6 +39,9 @@ export default function Health(){
             id="panel2a-header"
             >
             <Typography>Health & Life Sciences</Typography>
+            <Typography style={{color: 'gray'}}>
+            Using web technology, data analytics, big data and creative industries as drivers of disruptive innovations that can benefit  social and economic development
+            </Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>

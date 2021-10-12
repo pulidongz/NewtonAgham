@@ -39,6 +39,9 @@ export default function Digi(){
             id="panel2a-header"
             >
             <Typography>Digital Innovation & Creativity</Typography>
+            <Typography style={{color: 'gray'}}>
+            Reducing the burden of infectious and lifestyle diseases, including research on diagnostic, e-health systems and biomedical device development.
+            </Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>

@@ -39,6 +39,9 @@ export default function Future(){
             id="panel2a-header"
             >
             <Typography>Future Cities</Typography>
+            <Typography style={{color: 'gray'}}>
+                Addressing challenges and maximizing opportunities posed by rapid urbanization through support to physical and virtual infrastructure and better understanding of human impact
+            </Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography>
