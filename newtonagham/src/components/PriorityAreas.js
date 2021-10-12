@@ -84,18 +84,19 @@ export default function PriorityAreas(props){
                                 image={posters.thumbnail}
                                 title={posters.title}
                                 />
+                                <CardContent className={classes.cardContent}>
+                                    <Typography variant="body2" color="text.secondary">
+                                    {posters.title}
+                                    </Typography>
+                                </CardContent>
                             </CardActionArea>
                         </Card>
-                        <CardContent className={classes.cardContent}>
-                            <Typography variant="body2" color="text.secondary">
-                            {posters.title}
-                            </Typography>
-                        </CardContent>
+                        
                     </Grid>
                 ))}
             </Grid>
             <br/>
-            <Typography variant="h5" >Videos</Typography>
+            <Typography variant="h6" >Videos</Typography>
             <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
                 {json.videos.map((videos, index) => (
                     <Grid item xs={4} key={index}>

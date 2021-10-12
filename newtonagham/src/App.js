@@ -19,6 +19,9 @@ const theme = createTheme({
     h5: {
       fontFamily: `"Helvetica Neue"`,
     },
+    h6: {
+      fontFamily: `"Helvetica Neue"`,
+    },
     // body1: {
     //      fontFamily: `Helvetica 65 Medium`,
     //     },

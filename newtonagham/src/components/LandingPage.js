@@ -69,7 +69,7 @@ export default function LandingPage() {
 
                 <Paper style={{backgroundColor: '#266ebc'}}>
                     <Typography variant="h6" style={{color: '#fff'}}>
-                        Check out the publications resulting from the Newton Agham Fund supported initiatives according to these priority areas:
+                        Check out the Newton Agham Fund supported initiatives according to these priority areas:
                     </Typography>
                 </Paper>
                 {/* Agritechnology & Food Security */}
