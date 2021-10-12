@@ -4,7 +4,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Grid, Button, Divider } from '@mui/material';
+import { Grid, Button, Divider, Paper } from '@mui/material';
 
 import { makeStyles } from '@mui/styles';
 
@@ -66,11 +66,12 @@ export default function LandingPage() {
                     This online gallery showcases some of the programmes and projects supported by the Newton Agham Fund over the years.  Together with the Newton Agham Virtual Reception on 21 October 2021, co-hosted by the British Embassy Manila and the British Council, the activity is a celebration of the eight years of implementation of the Newton Agham Fund and the science and innovation partnerships between the UK and the Philippines that it has promoted.
                 </Typography>
                 <br/>
-                <Typography variant="body1" display="block" gutterBottom>
-                    Check out the publications resulting from the Newton Agham Fund supported initiatives according to these priority areas:
-                </Typography>
-                <br/>
-                
+
+                <Paper style={{backgroundColor: '#266ebc'}}>
+                    <Typography variant="h6" style={{color: '#fff'}}>
+                        Check out the publications resulting from the Newton Agham Fund supported initiatives according to these priority areas:
+                    </Typography>
+                </Paper>
                 {/* Agritechnology & Food Security */}
                 <PriorityAreas json={json_agri} />
 
@@ -88,7 +89,7 @@ export default function LandingPage() {
 
                 {/* Health & Life Sciences */}
                 <PriorityAreas json={json_health} />
-
+                <br />
             </Grid>
         </React.Fragment>
     );

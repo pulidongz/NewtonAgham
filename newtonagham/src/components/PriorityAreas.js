@@ -60,13 +60,14 @@ export default function PriorityAreas(props){
                 aria-controls="panel1a-content"
                 id="panel1a-header"
             >
-                <Typography variant="h5" sx={{ width: '33%', flexShrink: 0 }}>{json.title}</Typography>
-                <Typography style={{color: 'gray'}}>
-                    {json.definition}
-                </Typography>
+                <Typography variant="h5" sx={{ width: '50%', flexShrink: 0 }}>{json.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
+                <Typography variant="body1">
+                    {json.definition}
+                </Typography>
             <Typography variant="h6" >Posters</Typography>
+            
             <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
                 {json.posters.map((posters, index) => (
                     <Grid item xs={4} key={index}>
@@ -94,7 +95,7 @@ export default function PriorityAreas(props){
                 ))}
             </Grid>
             <br/>
-            <Typography variant="h6" >Videos</Typography>
+            <Typography variant="h5" >Videos</Typography>
             <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
                 {json.videos.map((videos, index) => (
                     <Grid item xs={4} key={index}>

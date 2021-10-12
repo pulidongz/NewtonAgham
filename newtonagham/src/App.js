@@ -19,9 +19,9 @@ const theme = createTheme({
     h5: {
       fontFamily: `"Helvetica Neue"`,
     },
-    body1: {
-         fontFamily: `Helvetica 65 Medium`,
-        },
+    // body1: {
+    //      fontFamily: `Helvetica 65 Medium`,
+    //     },
   },
   // typography: {
   //   fontFamily: '`Helvetica 65 Medium`, "Roboto", "Arial", sans-serif',
