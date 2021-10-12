@@ -68,7 +68,7 @@ export default function LandingPage() {
                 <br/>
 
                 <Paper style={{backgroundColor: '#266ebc'}}>
-                    <Typography variant="h6" style={{color: '#fff'}}>
+                    <Typography variant="h6" style={{color: '#fff', textAlign: 'center', padding:5}}>
                         Check out these Newton Agham Fund supported initiatives according to the following priority areas:
                     </Typography>
                 </Paper>
