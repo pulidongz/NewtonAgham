@@ -44,44 +44,44 @@ export default function LandingPage() {
             {
                 "title": "Development of CRISPR/Cas9-based novel vaccines against poultry viruses",
                 "url": "",
-                "thumbnail": ""
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriPoster1.png"
             },
             {
                 "title": "Local Approaches to Supporting Agricultural Productivity and Managing Impacts of Climate Variability and Change in Indigenous Communities in Aurora Province, Philippines",
                 "url": "",
-                "thumbnail": ""
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriPoster2.png"
             },
             {
                 "title": "Low-cost Portable Molecular Diagnostic Platform (LMDP) for rapid detection of select poultry pathogens in the Philippines",
                 "url": "",
-                "thumbnail": ""
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriPoster3.png"
             },
             {
                 "title": "Towards improving rice dietary fibre content and composition for human health",
                 "url": "",
-                "thumbnail": ""
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriPoster4.png"
             },
         ],
         "videos": [
             {
                 "title": "Assessing chemical and genetic diversity of Philippine microbes for discovery of novel natural products with applications in medicine and agriculture",
                 "url": "https://youtu.be/gvCc0TDetTE",
-                "thumbnail": "https://drive.google.com/file/d/1mtetHVMrKm4Pyw3mYmilZTn2QeWC1Uod/view"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriVideo1.png"
             },
             {
                 "title": "Co-production of knowledge with Indigenous peoples for UN Sustainable Development Goals (SDGs) with emphasis on the Higaonon Food Ethnobotany, and Discovery of a new Begonia species in Mindanao, Philippines",
                 "url": "https://youtu.be/K3oZSRBkWGQ",
-                "thumbnail": "../assets/images/1_Agri/video/AgriVideo2.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriVideo2.png"
             },
             {
                 "title": "Marine spatial planning of aquaculture facilities in the Philippines: protecting biodiversity whilst maximising economic returns for local communities",
                 "url": "https://youtu.be/AfAjNqwWxnk",
-                "thumbnail": "../assets/images/1_Agri/../assets/images/1_Agri/video/AgriVideo2.pngvideo/AgriVideo3.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriVideo3.png"
             },
             {
                 "title": "Understanding Bacterial Enteric Diseases and Antimicrobial Resistance",
                 "url": "https://youtu.be/RWEQiF9har0",
-                "thumbnail": "../assets/images/1_Agri/video/AgriVideo4.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriVideo4.png"
             }
         ]
     }

@@ -77,7 +77,7 @@ export default function Agri(props){
             </Typography>
             </AccordionSummary>
             <AccordionDetails>
-            <Typography>Posters</Typography>
+            <Typography variant="h6" >Posters</Typography>
             <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
                 {json.posters.map((posters, index) => (
                     <Grid item xs={4} key={index}>
@@ -92,48 +92,16 @@ export default function Agri(props){
                                 />
                             </CardActionArea>
                         </Card>
-                        <Typography>{posters.title}</Typography>
+                        <CardContent className={classes.cardContent}>
+                            <Typography variant="body2" color="text.secondary">
+                            {posters.title}
+                            </Typography>
+                        </CardContent>
                     </Grid>
                 ))}
-
-                {/* <Grid item xs={4}>
-                    <Card className={classes.card}>
-                        <CardActionArea 
-                            onClick={()=>{}}
-                        >
-                            <CardMedia
-                            className={classes.media}
-                            image={lab}
-                            title="Test"
-                            />
-                        </CardActionArea>
-                    </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className={classes.card}>
-                        <CardActionArea onClick={()=>{}}>
-                            <CardMedia
-                            className={classes.media}
-                            image={lab}
-                            title="Test"
-                            />
-                        </CardActionArea>
-                    </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className={classes.card}>
-                        <CardActionArea onClick={()=>{}}>
-                            <CardMedia
-                            className={classes.media}
-                            image={lab}
-                            title="Test"
-                            />
-                        </CardActionArea>
-                    </Card>
-                </Grid> */}
             </Grid>
             <br/>
-            <Typography>Videos</Typography>
+            <Typography variant="h6" >Videos</Typography>
             <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
                 {json.videos.map((videos, index) => (
                     <Grid item xs={4} key={index}>
@@ -159,95 +127,6 @@ export default function Agri(props){
                         </Card>
                     </Grid>
                 ))}
-
-                {/* <Grid item xs={4}>
-                    <Card className={classes.card}>
-                        <CardActionArea 
-                            onClick={()=>{
-                            setOpenModal(true);
-                            setThumbnail(AgriVideo1);
-                            setUrl(AgriVideo1Url);
-                            }}
-                        >
-                            <CardMedia
-                            className={classes.media}
-                            image={AgriVideo1}
-                            title="Assessing chemical and genetic diversity of Philippine microbes for discovery of novel natural products with applications in medicine and agriculture"
-                            />
-                            <CardContent className={classes.cardContent}>
-                                <Typography variant="body2" color="text.secondary">
-                                Assessing chemical and genetic diversity of Philippine microbes for discovery of novel natural products with applications in medicine and agriculture
-                                </Typography>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className={classes.card}>
-                        <CardActionArea 
-                            onClick={()=>{
-                            setOpenModal(true);
-                            setThumbnail(AgriVideo2);
-                            setUrl(AgriVideo2Url);
-                            }}
-                        >
-                            <CardMedia
-                            className={classes.media}
-                            image={AgriVideo2}
-                            title="Co-production of knowledge with Indigenous peoples for UN Sustainable Development Goals (SDGs) with emphasis on the Higaonon Food Ethnobotany, and Discovery of a new Begonia species in Mindanao, Philippines"
-                            />
-                            <CardContent className={classes.cardContent}>
-                                <Typography variant="body2" color="text.secondary">
-                                Co-production of knowledge with Indigenous peoples for UN Sustainable Development Goals (SDGs) with emphasis on the Higaonon Food Ethnobotany, and Discovery of a new Begonia species in Mindanao, Philippines
-                                </Typography>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className={classes.card}>
-                        <CardActionArea 
-                            onClick={()=>{
-                            setOpenModal(true);
-                            setThumbnail(AgriVideo3);
-                            setUrl(AgriVideo3Url);
-                            }}
-                        >
-                            <CardMedia
-                            className={classes.media}
-                            image={AgriVideo3}
-                            title="Marine spatial planning of aquaculture facilities in the Philippines: protecting biodiversity whilst maximising economic returns for local communities"
-                            />
-                            <CardContent className={classes.cardContent}>
-                                <Typography variant="body2" color="text.secondary">
-                                Marine spatial planning of aquaculture facilities in the Philippines: protecting biodiversity whilst maximising economic returns for local communities
-                                </Typography>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className={classes.card}>
-                        <CardActionArea 
-                            onClick={()=>{
-                            setOpenModal(true);
-                            setThumbnail(AgriVideo4);
-                            setUrl(AgriVideo4Url);
-                            }}
-                        >
-                            <CardMedia
-                            className={classes.media}
-                            image={AgriVideo4}
-                            title="Marine spatial planning of aquaculture facilities in the Philippines: protecting biodiversity whilst maximising economic returns for local communities"
-                            />
-                            <CardContent className={classes.cardContent}>
-                                <Typography variant="body2" color="text.secondary">
-                                Understanding Bacterial Enteric Diseases and Antimicrobial Resistance
-                                </Typography>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </Grid> */}
             </Grid>
             <br/>
             </AccordionDetails>
