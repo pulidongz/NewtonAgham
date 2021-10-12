@@ -32,6 +32,9 @@ const useStyles = makeStyles({
         position: 'relative',
         padding: 5
     },
+    expandedPanel: {
+        backgroundColor: '#266ebc',
+    }
 });
 
 export default function PriorityAreas(props){
@@ -53,14 +56,14 @@ export default function PriorityAreas(props){
         <React.Fragment>
         <Accordion>
             <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
             >
-            <Typography>{json.title}</Typography>
-            <Typography style={{color: 'gray'}}>
-                {json.definition}
-            </Typography>
+                <Typography variant="h5" sx={{ width: '33%', flexShrink: 0 }}>{json.title}</Typography>
+                <Typography style={{color: 'gray'}}>
+                    {json.definition}
+                </Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography variant="h6" >Posters</Typography>
