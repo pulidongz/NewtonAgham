@@ -13,7 +13,10 @@ import PriorityAreas from './PriorityAreas';
 // JSON IMPORTS
 const json_agri = require('../json/agri.json');
 const json_digi = require('../json/digi.json');
-
+const json_energy = require('../json/energy.json');
+const json_envi = require('../json/envi.json');
+const json_future = require('../json/future.json');
+const json_health = require('../json/health.json');
 
 const useStyles = makeStyles({
     card: { 
@@ -69,16 +72,16 @@ export default function LandingPage() {
                 <PriorityAreas json={json_digi} />
 
                 {/* Energy Security */}
-                <PriorityAreas json={json_agri} />
+                <PriorityAreas json={json_energy} />
 
                 {/* Environmental Resilience */}
-                <PriorityAreas json={json_agri} />
+                <PriorityAreas json={json_envi} />
 
                 {/* Future Cities */}
-                <PriorityAreas json={json_agri} />
+                <PriorityAreas json={json_future} />
 
                 {/* Health & Life Sciences */}
-                <PriorityAreas json={json_agri} />
+                <PriorityAreas json={json_health} />
 
             </Grid>
         </React.Fragment>
