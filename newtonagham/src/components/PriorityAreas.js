@@ -67,10 +67,9 @@ export default function PriorityAreas(props){
                     {json.definition}
                 </Typography>
             <Typography variant="h6" >Posters</Typography>
-            
             <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
                 {json.posters.map((posters, index) => (
-                    <Grid item xs={4} key={index}>
+                    <Grid item xs={12} md={4} lg={4} key={index}>
                         <Card className={classes.card}>
                             <CardActionArea 
                                 onClick={()=>{
@@ -99,7 +98,7 @@ export default function PriorityAreas(props){
             <Typography variant="h6" >Videos</Typography>
             <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
                 {json.videos.map((videos, index) => (
-                    <Grid item xs={4} key={index}>
+                    <Grid item xs={12} md={4} lg={4} key={index}>
                         <Card className={classes.card}>
                         <CardActionArea 
                             onClick={()=>{
