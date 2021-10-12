@@ -43,45 +43,45 @@ export default function LandingPage() {
         "posters": [
             {
                 "title": "Development of CRISPR/Cas9-based novel vaccines against poultry viruses",
-                "url": "",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriPoster1.png"
+                "url": "http://172.105.115.102:8080/pdfs/Agri/Development of CRISPRCas9-based novel vaccines against poultry viruses.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriPoster1.png"
             },
             {
                 "title": "Local Approaches to Supporting Agricultural Productivity and Managing Impacts of Climate Variability and Change in Indigenous Communities in Aurora Province, Philippines",
-                "url": "",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriPoster2.png"
+                "url": "http://172.105.115.102:8080/pdfs/Agri/Local Approaches to Supporting Agricultural Productivity and Managing Impacts of Climate Variability and Change in Indigenous Communities in Aurora Province, Philippines.png",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriPoster2.png"
             },
             {
                 "title": "Low-cost Portable Molecular Diagnostic Platform (LMDP) for rapid detection of select poultry pathogens in the Philippines",
-                "url": "",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriPoster3.png"
+                "url": "http://172.105.115.102:8080/pdfs/Agri/Low-cost Portable Molecular Diagnostic Platform (LMDP) for rapid detection of select poultry pathogens in the Philippines.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriPoster3.png"
             },
             {
                 "title": "Towards improving rice dietary fibre content and composition for human health",
-                "url": "",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriPoster4.png"
+                "url": "http://172.105.115.102:8080/pdfs/Agri/Towards improving rice dietary fibre content and composition for human health.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriPoster4.png"
             },
         ],
         "videos": [
             {
                 "title": "Assessing chemical and genetic diversity of Philippine microbes for discovery of novel natural products with applications in medicine and agriculture",
                 "url": "https://youtu.be/gvCc0TDetTE",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriVideo1.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriVideo1.png"
             },
             {
                 "title": "Co-production of knowledge with Indigenous peoples for UN Sustainable Development Goals (SDGs) with emphasis on the Higaonon Food Ethnobotany, and Discovery of a new Begonia species in Mindanao, Philippines",
                 "url": "https://youtu.be/K3oZSRBkWGQ",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriVideo2.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriVideo2.png"
             },
             {
                 "title": "Marine spatial planning of aquaculture facilities in the Philippines: protecting biodiversity whilst maximising economic returns for local communities",
                 "url": "https://youtu.be/AfAjNqwWxnk",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriVideo3.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriVideo3.png"
             },
             {
                 "title": "Understanding Bacterial Enteric Diseases and Antimicrobial Resistance",
                 "url": "https://youtu.be/RWEQiF9har0",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/AgriVideo4.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriVideo4.png"
             }
         ]
     }
