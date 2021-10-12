@@ -13,7 +13,6 @@ import { Grid, Button, Card,
     DialogContent } from '@mui/material';
 
 import { makeStyles } from '@mui/styles';
-import lab from './assets/images/lab.jpg';
 
 import AgriVideo1 from '../assets/images/1_Agri/video/AgriVideo1.png';
 import AgriVideo2 from '../assets/images/1_Agri/video/AgriVideo2.png';
@@ -58,9 +57,15 @@ export default function Agri(props){
         setUrl('');
     }
 
+    console.log(json.posters);
+
+    json.posters.map(posters => {
+        console.log(posters.title);
+    });
+
     return (
         <React.Fragment>
-        <Accordion className={Agri}>
+        <Accordion>
             <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -73,8 +78,25 @@ export default function Agri(props){
             </AccordionSummary>
             <AccordionDetails>
             <Typography>Posters</Typography>
-            <Grid container spacing={3} direction="row" justifyContent="center" alignItems="center">
-                <Grid item xs={4}>
+            <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
+                {json.posters.map((posters, index) => (
+                    <Grid item xs={4} key={index}>
+                        <Card className={classes.card}>
+                            <CardActionArea 
+                                onClick={()=>{}}
+                            >
+                                <CardMedia
+                                className={classes.media}
+                                image={posters.thumbnail}
+                                title={posters.title}
+                                />
+                            </CardActionArea>
+                        </Card>
+                        <Typography>{posters.title}</Typography>
+                    </Grid>
+                ))}
+
+                {/* <Grid item xs={4}>
                     <Card className={classes.card}>
                         <CardActionArea 
                             onClick={()=>{}}
@@ -108,12 +130,37 @@ export default function Agri(props){
                             />
                         </CardActionArea>
                     </Card>
-                </Grid>
+                </Grid> */}
             </Grid>
             <br/>
             <Typography>Videos</Typography>
             <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
-                <Grid item xs={4}>
+                {json.videos.map((videos, index) => (
+                    <Grid item xs={4} key={index}>
+                        <Card className={classes.card}>
+                        <CardActionArea 
+                            onClick={()=>{
+                            setOpenModal(true);
+                            setThumbnail(videos.thumbnail);
+                            setUrl(videos.url);
+                            }}
+                        >
+                            <CardMedia
+                            className={classes.media}
+                            image={videos.thumbnail}
+                            title={videos.title}
+                            />
+                            <CardContent className={classes.cardContent}>
+                                <Typography variant="body2" color="text.secondary">
+                                {videos.title}
+                                </Typography>
+                            </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                ))}
+
+                {/* <Grid item xs={4}>
                     <Card className={classes.card}>
                         <CardActionArea 
                             onClick={()=>{
@@ -200,7 +247,7 @@ export default function Agri(props){
                             </CardContent>
                         </CardActionArea>
                     </Card>
-                </Grid>
+                </Grid> */}
             </Grid>
             <br/>
             </AccordionDetails>

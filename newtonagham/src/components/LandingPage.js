@@ -12,8 +12,6 @@ import { Grid, Button, Card,
 
 import { makeStyles } from '@mui/styles';
 
-import lab from './assets/images/lab.jpg';
-
 import Agri from './1_Agri';
 import Digi from './2_Digi';
 import Energy from './3_Energy';
@@ -68,7 +66,7 @@ export default function LandingPage() {
             {
                 "title": "Assessing chemical and genetic diversity of Philippine microbes for discovery of novel natural products with applications in medicine and agriculture",
                 "url": "https://youtu.be/gvCc0TDetTE",
-                "thumbnail": "../assets/images/1_Agri/video/AgriVideo1.png"
+                "thumbnail": "https://drive.google.com/file/d/1mtetHVMrKm4Pyw3mYmilZTn2QeWC1Uod/view"
             },
             {
                 "title": "Co-production of knowledge with Indigenous peoples for UN Sustainable Development Goals (SDGs) with emphasis on the Higaonon Food Ethnobotany, and Discovery of a new Begonia species in Mindanao, Philippines",

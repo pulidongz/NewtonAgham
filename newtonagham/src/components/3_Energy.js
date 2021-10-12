@@ -11,7 +11,6 @@ import { Grid, Button, Card,
     FormLabel, } from '@mui/material';
 
 import { makeStyles } from '@mui/styles';
-import lab from './assets/images/lab.jpg';
 
 const useStyles = makeStyles({
     card: { 
