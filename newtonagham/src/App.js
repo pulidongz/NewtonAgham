@@ -10,6 +10,12 @@ import NewtonAgham from "./components/NewtonAgham.js";
 const theme = createTheme({
   typography: {
     "fontFamily": `"Roboto", "Arial", Helvetica Neue`,
+    h2: {
+      fontFamily: `"Helvetica Neue"`,
+    },
+    h4: {
+      fontFamily: `"Helvetica Neue"`,
+    },
     h5: {
       fontFamily: `"Helvetica Neue"`,
     },
@@ -28,8 +34,8 @@ const theme = createTheme({
       main: '#cccccc',
     },
     primary: {
-      main: '#06808E',
-      dark: 'green'
+      main: '#266ebc',
+      dark: '#06808E'
     },
   },
   overrides: {
