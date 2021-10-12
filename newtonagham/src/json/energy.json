@@ -1,0 +1,38 @@
+{
+    "title": "",
+        "definition": "",
+        "posters": [
+            {
+                "title": "Affordable electrolyser technology based on transition metal catalyst for energy storage applications",
+                "url": "http://172.105.115.102:8080/pdfs/Energy/Affordable electrolyser technology based on transition metal catalyst for energy storage applications.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Energy/EnergyPoster1.png"
+            },
+            {
+                "title": "Biomass value chains and the environment-food-energy-water nexus in the Philippines: whole systems analysis and optimisation",
+                "url": "http://172.105.115.102:8080/pdfs/Energy/Biomass value chains and the environment-food-energy-water nexus in the Philippines whole systems analysis and optimisation.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Energy/EnergyPoster2.png"
+            },
+            {
+                "title": "Wind Resource Assessment using the Numerical Weather Prediction Model to Identify the Offshore Wind Resource in the Philippines",
+                "url": "http://172.105.115.102:8080/pdfs/Energy/Wind Resource Assessment using the Numerical Weather Prediction Model to Identify the Offshore Wind Resource in the Philippines.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Energy/EnergyPoster3.png"
+            }
+        ],
+        "videos": [
+            {
+                "title": "Capacity in research and development embedded in case studies related to energy in the built environment and for rural electrification",
+                "url": "https://youtu.be/ZyaEM3nXfUc",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Energy/EnergyVid1.png"
+            },
+            {
+                "title": "PULP-SEED: Philippines UK coLlaborative Partnership-System for Environmental and Efficient Drying",
+                "url": "https://www.youtube.com/watch?v=qPHUhVuRPQI&t=6s",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Energy/EnergyVid2.png"
+            },
+            {
+                "title": "Wireless sensor networks to enable user-driven control of micro-power generation devices",
+                "url": "https://www.youtube.com/watch?v=cm9CYl2ZwyQ&t=3s",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Energy/EnergyVid3.png"
+            }
+        ]
+}

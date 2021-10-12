@@ -1,0 +1,58 @@
+{
+    "title": "",
+        "definition": "",
+        "posters": [
+            {
+                "title": "Cellular Immunity and Resistance to Schistosomiasis in the Philippines (CRISTAL)",
+                "url": "http://172.105.115.102:8080/pdfs/Health/Cellular Immunity and Resistance to Schistosomiasis in the Philippines.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthPoster1.png"
+            },
+            {
+                "title": "Development and evaluation of simple, affordable, near-patient diagnostic tests for infectious diseases in the Philippines (AND2IDinPH)",
+                "url": "http://172.105.115.102:8080/pdfs/Health/Development and evaluation of simple, affordable, near-patient diagnostic tests for infectious diseases in the Philippines.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthPoster2.png"
+            },
+            {
+                "title": "Impact Assessment of Diagnostic tools and Algorithms for Multi-drug Resistant and Drug Sensitive Tuberculosis in the Philippines (TB-FIT Project)",
+                "url": "http://172.105.115.102:8080/pdfs/Health/Impact Assessment of Diagnostic tools and Algorithms for Multi-drug Resistant and Drug Sensitive Tuberculosis in the Philippines.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthPoster3.png"
+            },
+            {
+                "title": "PHISH: Intensified surveillance for the control of soil-transmitted helminthiases and other neglected tropical diseases in the Philippines",
+                "url": "http://172.105.115.102:8080/pdfs/Health/Intensified surveillance for the control of soil-transmitted helminthiases and other neglected tropical diseases in the Philippines.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthPoster4.png"
+            },
+            {
+                "title": "See and Sequence: Genomic Surveillance of Antimicrobial Resistant and High-Risk Pathogenic Clones",
+                "url": "http://172.105.115.102:8080/pdfs/Health/Genomic Surveillance of Antimicrobial Resistant and High-Risk  Pathogenic Clones.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthPoster5.png"
+            },
+            {
+                "title": "SPEEDIER: Surveillance Integrating Phylogenetics and Epidemiology for Elimination of Disease",
+                "url": "http://172.105.115.102:8080/pdfs/Health/Surveillance Integrating Phylogenetics and Epidemiology for Elimination of Disease.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthPoster6.png"
+            },
+            {
+                "title": "The UK-Philippines Remote Retinal Evaluation Collaboration in Health: Diabetic Retinopathy (REACH-DR)",
+                "url": "http://172.105.115.102:8080/pdfs/Health/The UK-Philippines Remote Retinal Evaluation Collaboration in Health - Diabetic Retinopathy.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthPoster7.png"
+            },
+            {
+                "title": "Using Host-Responses and Pathogen Genomics to Improve Diagnostics for Tuberculosis in the Philippines",
+                "url": "http://172.105.115.102:8080/pdfs/Health/Using Host-Responses and Pathogen Genomics to Improve Diagnostics for Tuberculosis in the Philippines.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthPoster8.png"
+            }
+        ],
+        "videos": [
+            {
+                "title": "Carnosine: biological actions and therapeutic implications",
+                "url": "https://youtu.be/-Eo5brZIzSc",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthVideo1.png"
+            },
+            {
+                "title": "Transforming Primary Healthcare in the Philippines: An Innovative Pilot Postgraduate Professional Development Program for Primary Physicians in the Province of Northern Samar",
+                "url": "https://youtu.be/ili8k21L7KI",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Health/HealthVideo2.png"
+            }
+        ]
+}

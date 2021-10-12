@@ -4,20 +4,16 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Grid, Button, Card,
-    CardActionArea,
-    CardContent,
-    CardMedia,
-    FormLabel, } from '@mui/material';
+import { Grid, Button } from '@mui/material';
 
 import { makeStyles } from '@mui/styles';
 
-import Agri from './1_Agri';
-import Digi from './2_Digi';
-import Energy from './3_Energy';
-import Envi from './4_Envi';
-import Future from './5_Future';
-import Health from './6_Health';
+import PriorityAreas from './PriorityAreas';
+
+// JSON IMPORTS
+const json_agri = require('../json/agri.json');
+const json_digi = require('../json/digi.json');
+
 
 const useStyles = makeStyles({
     card: { 
@@ -37,56 +33,7 @@ const useStyles = makeStyles({
 
 export default function LandingPage() {
     const classes = useStyles();
-    const json_agri = {
-        "title": "Agritechnology & Food Security",
-        "definition": "Increasing agricultural productivity and addressing food security issues as production is likely to be hindered by the impact of climate change",
-        "posters": [
-            {
-                "title": "Development of CRISPR/Cas9-based novel vaccines against poultry viruses",
-                "url": "http://172.105.115.102:8080/pdfs/Agri/Development of CRISPRCas9-based novel vaccines against poultry viruses.pdf",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriPoster1.png"
-            },
-            {
-                "title": "Local Approaches to Supporting Agricultural Productivity and Managing Impacts of Climate Variability and Change in Indigenous Communities in Aurora Province, Philippines",
-                "url": "http://172.105.115.102:8080/pdfs/Agri/Local Approaches to Supporting Agricultural Productivity and Managing Impacts of Climate Variability and Change in Indigenous Communities in Aurora Province, Philippines.png",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriPoster2.png"
-            },
-            {
-                "title": "Low-cost Portable Molecular Diagnostic Platform (LMDP) for rapid detection of select poultry pathogens in the Philippines",
-                "url": "http://172.105.115.102:8080/pdfs/Agri/Low-cost Portable Molecular Diagnostic Platform (LMDP) for rapid detection of select poultry pathogens in the Philippines.pdf",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriPoster3.png"
-            },
-            {
-                "title": "Towards improving rice dietary fibre content and composition for human health",
-                "url": "http://172.105.115.102:8080/pdfs/Agri/Towards improving rice dietary fibre content and composition for human health.pdf",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriPoster4.png"
-            },
-        ],
-        "videos": [
-            {
-                "title": "Assessing chemical and genetic diversity of Philippine microbes for discovery of novel natural products with applications in medicine and agriculture",
-                "url": "https://youtu.be/gvCc0TDetTE",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriVideo1.png"
-            },
-            {
-                "title": "Co-production of knowledge with Indigenous peoples for UN Sustainable Development Goals (SDGs) with emphasis on the Higaonon Food Ethnobotany, and Discovery of a new Begonia species in Mindanao, Philippines",
-                "url": "https://youtu.be/K3oZSRBkWGQ",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriVideo2.png"
-            },
-            {
-                "title": "Marine spatial planning of aquaculture facilities in the Philippines: protecting biodiversity whilst maximising economic returns for local communities",
-                "url": "https://youtu.be/AfAjNqwWxnk",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriVideo3.png"
-            },
-            {
-                "title": "Understanding Bacterial Enteric Diseases and Antimicrobial Resistance",
-                "url": "https://youtu.be/RWEQiF9har0",
-                "thumbnail": "http://172.105.115.102:8080/thumbnails/Agri/AgriVideo4.png"
-            }
-        ]
-    }
-
-
+    
     return(
         <React.Fragment>
             <Grid style={{paddingLeft: '15%', paddingRight: '15%'}}>
@@ -116,22 +63,23 @@ export default function LandingPage() {
                 <br/>
                 
                 {/* Agritechnology & Food Security */}
-                <Agri json={json_agri} />
+                <PriorityAreas json={json_agri} />
 
                 {/* Digital Innovation & Creativity */}
-                <Digi />
+                <PriorityAreas json={json_digi} />
 
                 {/* Energy Security */}
-                <Energy />
+                <PriorityAreas json={json_agri} />
 
                 {/* Environmental Resilience */}
-                <Envi />
+                <PriorityAreas json={json_agri} />
 
                 {/* Future Cities */}
-                <Future />
+                <PriorityAreas json={json_agri} />
 
                 {/* Health & Life Sciences */}
-                <Health />
+                <PriorityAreas json={json_agri} />
+
             </Grid>
         </React.Fragment>
     );
