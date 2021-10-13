@@ -152,7 +152,7 @@ export default function PriorityAreas(props){
         {/* PDF VIEWER MODAL */}
         <Dialog onClose={closeModal} open={openPdfModal} classes={{paper : classes.pdfModal}}>
         <DialogContent>
-            <iframe src={url} title="title" width="100%" height="800" frameborder="0"></iframe>
+            <iframe src={url} title="title" width="100%" height="800" frameBorder="0"></iframe>
         </DialogContent>
         </Dialog>
 
