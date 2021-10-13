@@ -4,6 +4,7 @@ import { Grid, Paper, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import newtonLogo from '../assets/images/Newton-Agham_CMYK.svg';
 import banner from '../assets/images/banner1.png';
+import bannerVid from '../assets/video/bannervid.mp4';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -31,7 +32,10 @@ export default function Header() {
             </Grid>
             <Grid>
                 <Paper className={classes.banner}>
-                    <img src={banner} style={{width: '100%', objectFit: 'cover'}}/>
+                    {/* <img src={banner} style={{width: '100%', objectFit: 'cover'}}/> */}
+                    <video width="100%" height="100%" autoPlay loop muted>
+                        <source src={bannerVid} type="video/mp4" />
+                    </video>
                 </Paper>
             </Grid>
         </React.Fragment>

@@ -69,66 +69,83 @@ export default function PriorityAreas(props){
                 <Typography variant="h5" sx={{ width: '50%', flexShrink: 0 }}>{json.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-                <Typography variant="body1">
-                    {json.definition}
-                </Typography>
-            <Typography variant="h6" >Posters</Typography>
-            <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
-                {json.posters.map((posters, index) => (
-                    <Grid item xs={12} md={4} lg={4} key={index}>
-                        <Card className={classes.card}>
-                            <CardActionArea 
-                                onClick={()=>{
-                                    setOpenPdfModal(true);
-                                    setThumbnail(posters.thumbnail);
-                                    setUrl(posters.url);
-                                }}
-                            >
-                                <CardMedia
-                                className={classes.media}
-                                image={posters.thumbnail}
-                                title={posters.title}
-                                />
-                                <CardContent className={classes.cardContent}>
-                                    <Typography variant="body2" color="text.secondary">
-                                    {posters.title}
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                        
+                <Grid container spacing={2}
+                    direction="row"
+                    justifyContent="flex-start"
+                    alignItems="flex-start">
+
+                    <Grid item xs={12}>   
+                        <Typography variant="body1">{json.definition}</Typography>
+                    </Grid>    
+                    <Grid item xs={12}>
+                        <Typography variant="h6" >Posters</Typography>
                     </Grid>
-                ))}
-            </Grid>
-            <br/>
-            <Typography variant="h6" >Videos</Typography>
-            <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
-                {json.videos.map((videos, index) => (
-                    <Grid item xs={12} md={4} lg={4} key={index}>
-                        <Card className={classes.card}>
-                        <CardActionArea 
-                            onClick={()=>{
-                            setOpenVideoModal(true);
-                            setThumbnail(videos.thumbnail);
-                            setUrl(videos.url);
-                            }}
-                        >
-                            <CardMedia
-                            className={classes.media}
-                            image={videos.thumbnail}
-                            title={videos.title}
-                            />
-                            <CardContent className={classes.cardContent}>
-                                <Typography variant="body2" color="text.secondary">
-                                {videos.title}
-                                </Typography>
-                            </CardContent>
-                            </CardActionArea>
-                        </Card>
+                    
+                    <Grid item xs={12}>
+                        <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
+                            {json.posters.map((posters, index) => (
+                                <Grid item xs={12} md={4} lg={4} key={index}>
+                                    <Card className={classes.card}>
+                                        <CardActionArea 
+                                            onClick={()=>{
+                                                setOpenPdfModal(true);
+                                                setThumbnail(posters.thumbnail);
+                                                setUrl(posters.url);
+                                            }}
+                                        >
+                                            <CardMedia
+                                            className={classes.media}
+                                            image={posters.thumbnail}
+                                            title={posters.title}
+                                            />
+                                            <CardContent className={classes.cardContent}>
+                                                <Typography variant="body2" color="text.secondary">
+                                                {posters.title}
+                                                </Typography>
+                                            </CardContent>
+                                        </CardActionArea>
+                                    </Card>
+                                    
+                                </Grid>
+                            ))}
+                        </Grid>
                     </Grid>
-                ))}
-            </Grid>
-            <br/>
+                    <br/>
+                    <Grid item xs={12}>
+                        <Typography variant="h6" >Videos</Typography>
+                    </Grid>
+                    
+                    <Grid item xs={12}>
+                    <Grid container spacing={3} direction="row" justifyContent="flex-start" alignItems="center">
+                        {json.videos.map((videos, index) => (
+                            <Grid item xs={12} md={4} lg={4} key={index}>
+                                <Card className={classes.card}>
+                                <CardActionArea 
+                                    onClick={()=>{
+                                    setOpenVideoModal(true);
+                                    setThumbnail(videos.thumbnail);
+                                    setUrl(videos.url);
+                                    }}
+                                >
+                                    <CardMedia
+                                    className={classes.media}
+                                    image={videos.thumbnail}
+                                    title={videos.title}
+                                    />
+                                    <CardContent className={classes.cardContent}>
+                                        <Typography variant="body2" color="text.secondary">
+                                        {videos.title}
+                                        </Typography>
+                                    </CardContent>
+                                    </CardActionArea>
+                                </Card>
+                            </Grid>
+                        ))}
+                    </Grid>
+                    </Grid>
+                    <br/>
+                </Grid>
+
             </AccordionDetails>
         </Accordion>
 
