@@ -115,7 +115,11 @@ export default function LandingPage() {
                     <a href="https://gtr.ukri.org/" target="_blank">UKRI Gateway to Research</a>
                     <br/>
                     <a href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme/publications/grantees?fbclid=IwAR0LTMXrmEG0_DBvI5-EdO7HsySDTI4svIZlJhIxPAEcRYdDEp1MXWeMsCg" target="_blank">Newton Agham Grantees Publications</a>
-                    <br/><br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                 </Typography>
             </Grid>
             <Footer />
