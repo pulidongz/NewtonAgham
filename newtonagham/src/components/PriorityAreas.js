@@ -165,9 +165,9 @@ export default function PriorityAreas(props){
 
         {/* VIDEO PLAYER MODAL */}
         <Dialog onClose={closeModal} open={openVideoModal} >
-        <DialogContent>
-            <ReactPlayer className='react-player' url={url} controls={true} />
-        </DialogContent>
+        <div className="player-wrapper">
+            <ReactPlayer className='react-player' url={url} controls={true}/>
+        </div>
         </Dialog>
     </React.Fragment>
     );

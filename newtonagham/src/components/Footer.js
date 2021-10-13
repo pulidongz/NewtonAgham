@@ -60,13 +60,14 @@ const useStyles = makeStyles((theme) => ({
             <Grid container
               direction="row"
               justifyContent="center"
-              alignItems="center" style={{backgroundColor: '#266ebc', width: '100', height: 450, objectFit: 'cover'}}>
+              alignItems="center" style={{backgroundColor: '#266ebc', width: '100%', position:'relative', marginTop: -200}}>
+              
 
               {/* UK GRID */}
               <Grid container spacing={0}
               direction="row"
               justifyContent="flex-end"
-              alignItems="flex-start" xs={4} md={4} lg={4}>
+              alignItems="flex-start" xs={12} md={4} lg={4}>
 
                 {/* UK Partners */}
                 <Grid container direction="row" justifyContent="center" alignItems="flex-start">
@@ -79,28 +80,28 @@ const useStyles = makeStyles((theme) => ({
 
                 {/* UK LOGOS */}
                 <Grid container direction="row" justifyContent="center" alignItems="center">
-                  <Grid item xs={6} md={6} lg={6}>
+                  <Grid item xs={12} md={6} lg={6}>
                     <img src={britishCouncil} alt="britishCouncil" style={{width: 200, height:'40%', objectFit: 'cover'}} />
                   </Grid>
-                  <Grid item xs={6} md={6} lg={6}>
+                  <Grid item xs={12} md={6} lg={6}>
                     <img src={raeng} alt="raeng" style={{width: 200, height:'40%', objectFit: 'cover'}} />
                   </Grid>
-                  <Grid item xs={6} md={6} lg={6}>
+                  <Grid item xs={12} md={6} lg={6}>
                     <img src={metOffice} alt="metOffice" style={{width: 200, height:'30%', objectFit: 'cover'}} />
                   </Grid>
-                  <Grid xs={6} md={6} lg={6}>
+                  <Grid xs={12} md={6} lg={6}>
                     <img src={bbsrc} alt="bbsrc" style={{width: 200, height:'40%', objectFit: 'cover'}} />
                   </Grid>
-                  <Grid item xs={6} md={6} lg={6}>
+                  <Grid item xs={12} md={6} lg={6}>
                     <img src={mrc} alt="mrc" style={{width: 200, height:'40%', objectFit: 'cover'}} />
                   </Grid>
-                  <Grid xs={6} md={6} lg={6}>
+                  <Grid xs={12} md={6} lg={6}>
                     <img src={nerc} alt="nerc" style={{width: 200, height:'40%', objectFit: 'cover'}} />
                   </Grid>
-                  <Grid xs={6} md={6} lg={6}>
+                  <Grid xs={12} md={6} lg={6}>
                     <img src={innovateUk} alt="innovateUk" style={{width: 200, height:'40%', objectFit: 'cover'}} />
                   </Grid>
-                  <Grid xs={6} md={6} lg={6}>
+                  <Grid xs={12} md={6} lg={6}>
                     <img src={ukri} alt="ukri" style={{width: 200, height:'40%', objectFit: 'cover'}} />
                   </Grid>
                 </Grid>
@@ -110,7 +111,7 @@ const useStyles = makeStyles((theme) => ({
               <Grid container spacing={2}
               direction="column"
               justifyContent="center"
-              alignItems="center" xs={4} md={4} lg={4}>
+              alignItems="center" xs={12} md={4} lg={4}>
                 <Grid item>
                 <Typography variant="h5" className={classes.whiteFont}>
                    PH Partners:
@@ -131,7 +132,7 @@ const useStyles = makeStyles((theme) => ({
               <Grid container
               direction="column"
               justifyContent="center"
-              alignItems="flex-start" xs={3} md={3} lg={3}>
+              alignItems="flex-start" xs={12} md={3} lg={3}>
 
                 <Grid item xs={12}>
                 <Typography variant="h6" className={classes.whiteFont}>
