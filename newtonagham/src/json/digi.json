@@ -4,25 +4,25 @@
         "posters": [
             {
                 "title": "X-LIPAD: A Modular Unmanned Aerial Vehicle",
-                "url": "https://172.105.115.102:8080/pdfs/Digi/X-Lipad.pdf",
-                "thumbnail": "https://172.105.115.102:8080/thumbnails/Digi/DigitalPoster1.png"
+                "url": "http://172.105.115.102:8080/pdfs/Digi/X-Lipad.pdf",
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Digi/DigitalPoster1.png"
             }
         ],
         "videos": [
             {
                 "title": "COPIOUS: COnserving Philippine bIOdiversity by UnderStanding big data",
                 "url": "https://youtu.be/-WOERDlvQ8A",
-                "thumbnail": "https://172.105.115.102:8080/thumbnails/Digi/DigitalVid1.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Digi/DigitalVid1.png"
             },
             {
                 "title": "JOLLY: Jokes On-line to improve Literacy and Learning digital skills amongst Young people from disadvantaged backgrounds",
                 "url": "https://youtu.be/8hYl8wYXkrs",
-                "thumbnail": "https://172.105.115.102:8080/thumbnails/Digi/DigitalVid2.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Digi/DigitalVid2.png"
             },
             {
                 "title": "TITAN Vehicle Monitoring: a software system that processes videos of various traffic road scenes under different weather conditions",
                 "url": "https://youtu.be/U7usU-cRXlk",
-                "thumbnail": "https://172.105.115.102:8080/thumbnails/Digi/DigitalVid3.png"
+                "thumbnail": "http://172.105.115.102:8080/thumbnails/Digi/DigitalVid3.png"
             }
         ]
 }
