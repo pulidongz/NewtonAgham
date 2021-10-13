@@ -24,3 +24,12 @@ code {
 .react-player > div {
   position: absolute;
 }
+
+.nodecorate:active, .nodecorate:link, .nodecorate:visited {
+	text-decoration: none;
+  color: #fff !important;
+}
+
+.nodecorate:hover { 
+  color: lightseagreen !important;
+}
