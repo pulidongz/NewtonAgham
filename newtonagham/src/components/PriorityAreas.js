@@ -58,6 +58,10 @@ export default function PriorityAreas(props){
         setUrl('');
     }
 
+    const openPDFNextTab = (pdfUrl) => {
+        window.open(pdfUrl);
+      };
+
     return (
         <React.Fragment>
         <Accordion>
@@ -153,6 +157,9 @@ export default function PriorityAreas(props){
         <Dialog onClose={closeModal} open={openPdfModal} classes={{paper : classes.pdfModal}}>
         <DialogContent>
             <iframe src={url} title="title" width="100%" height="800" frameBorder="0"></iframe>
+            <Grid style={{textAlign: 'center'}}>
+                <Button variant="contained" onClick={(e) => openPDFNextTab(url)}>View Full Size</Button>
+            </Grid>
         </DialogContent>
         </Dialog>
 
