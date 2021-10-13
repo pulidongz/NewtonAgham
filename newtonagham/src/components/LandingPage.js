@@ -55,7 +55,7 @@ export default function LandingPage() {
                 </Typography>
                 <br/>
                 <Typography variant="body1" component="div" gutterBottom>
-                    The Newton Agham Fund is a collaboration between the UK and the Philippines to promote science and innovation partnerships, strengthen mutual capacity, and support technologies that address development challenges in the Philippines and the region.
+                    The <a href="https://www.newton-gcrf.org/impact/where-we-work/philippines/" target="_blank">Newton Agham Fund</a> is a collaboration between the UK and the Philippines to promote science and innovation partnerships, strengthen mutual capacity, and support technologies that address development challenges in the Philippines and the region.
                 </Typography>
                 <br/>
                 <Collapse in={checked} collapsedSize={0}>
