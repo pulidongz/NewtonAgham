@@ -24,12 +24,6 @@ const useStyles = makeStyles((theme) => ({
 export default function Header() {
     const classes = useStyles();
 
-    var banners = [
-        {
-
-        }
-    ]
-
     return(
         <React.Fragment>
             <Grid>
@@ -43,11 +37,18 @@ export default function Header() {
                     <img src={banner} style={{width: '100%', objectFit: 'cover'}}/>
                 </div>
                 <div>
-                    <video width="100%" height="100%" autoPlay loop muted>
-                        <source src={bannerVid} type="video/mp4" />
-                    </video>
+                    <Grid container direction="row"
+                        justifyContent="center"
+                        alignItems="center">
+                        <video width="100%" height="100%" autoPlay loop muted>
+                            <source src={bannerVid} type="video/mp4" />
+                        </video>
+                        <a href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme/virtual-reception?fbclid=IwAR0PSb1ojJJPLwP9fDnbBNNWfeQE7x24pZJ353b7CIpjg57kKUYE8dbrznM" target="_blank">
+                            <p className="legend" style={{width: '20vh', bottom: 20, marginLeft: '-10vh'}}>Visit for more details</p>
+                        </a>
+                    </Grid>
                 </div>
-            </Carousel>
+                </Carousel>
 
             </Grid>
         </React.Fragment>
