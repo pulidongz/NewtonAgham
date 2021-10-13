@@ -5,6 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ControlPointIcon from '@mui/icons-material/ControlPoint';
 import { Grid, Button, Card,
     CardActionArea,
     CardContent,
@@ -34,6 +35,11 @@ const useStyles = makeStyles({
     },
     expandedPanel: {
         backgroundColor: '#266ebc',
+    },
+    pdfModal:{
+        width: '95%',
+        // height: '100%',
+        // padding: 0,
     }
 });
 
@@ -127,20 +133,16 @@ export default function PriorityAreas(props){
         </Accordion>
 
         {/* PDF VIEWER MODAL */}
-        <Dialog onClose={closeModal} open={openPdfModal}>
+        <Dialog onClose={closeModal} open={openPdfModal} classes={{paper : classes.pdfModal}}>
         <DialogContent>
-            <Grid>
-                <iframe src={url} title="title" width="800" height="800" frameborder="0"></iframe>
-            </Grid>
+            <iframe src={url} title="title" width="100%" height="800" frameborder="0"></iframe>
         </DialogContent>
         </Dialog>
 
         {/* VIDEO PLAYER MODAL */}
-        <Dialog onClose={closeModal} open={openVideoModal}>
-        <DialogContent className={classes.dialogContent}>
-            <Grid>
-                <ReactPlayer className='react-player' url={url} controls={true} />
-            </Grid>
+        <Dialog onClose={closeModal} open={openVideoModal} >
+        <DialogContent>
+            <ReactPlayer className='react-player' url={url} controls={true} />
         </DialogContent>
         </Dialog>
     </React.Fragment>
