@@ -43,7 +43,7 @@ export default function Header() {
                         <video width="100%" height="100%" autoPlay loop muted>
                             <source src={bannerVid} type="video/mp4" />
                         </video>
-                        <a href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme/virtual-reception?fbclid=IwAR0PSb1ojJJPLwP9fDnbBNNWfeQE7x24pZJ353b7CIpjg57kKUYE8dbrznM" target="_blank">
+                        <a href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme/virtual-reception?fbclid=IwAR0PSb1ojJJPLwP9fDnbBNNWfeQE7x24pZJ353b7CIpjg57kKUYE8dbrznM" target="_blank" rel="noreferrer">
                             <p className="legend" style={{width: '20vh', bottom: 20, marginLeft: '-10vh'}}>Visit for more details</p>
                         </a>
                     </Grid>
