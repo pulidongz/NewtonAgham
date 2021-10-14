@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { Grid, Paper, Typography } from '@mui/material';
+import { Button, Grid, Paper, Typography } from '@mui/material';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { makeStyles } from '@mui/styles';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import newtonLogo from '../assets/images/Newton-Agham_CMYK.svg';
 import banner from '../assets/images/banner1.png';
-import bannerVid from '../assets/video/Newton_VR_3.mp4';
+import bannerVid from '../assets/video/Newton_VR_6.mp4';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -37,16 +38,14 @@ export default function Header() {
                     <img src={banner} style={{width: '100%', objectFit: 'cover'}}/>
                 </div>
                 <div>
-                    <Grid container direction="row"
-                        justifyContent="center"
-                        alignItems="center">
-                        <video width="100%" height="100%" autoPlay loop muted>
-                            <source src={bannerVid} type="video/mp4" />
-                        </video>
-                        <a href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme/virtual-reception?fbclid=IwAR0PSb1ojJJPLwP9fDnbBNNWfeQE7x24pZJ353b7CIpjg57kKUYE8dbrznM" target="_blank" rel="noreferrer">
-                            <p className="legend" style={{maxWidth: '10vh', maxHeight: '20vh', bottom: 20, marginLeft: '-5vh'}}>VISIT</p>
-                        </a>
-                    </Grid>
+                    <video width="100%" height="100%" autoPlay loop muted>
+                        <source src={bannerVid} type="video/mp4" />
+                    </video>
+                    <a href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme/virtual-reception?fbclid=IwAR0PSb1ojJJPLwP9fDnbBNNWfeQE7x24pZJ353b7CIpjg57kKUYE8dbrznM" target="_blank" rel="noreferrer">  
+                        <p className="legend" style={{maxWidth: '10%', maxHeight: '20%', bottom: '10%', marginLeft: '-18%'}}>
+                            <ArrowForwardIosIcon />
+                        </p>
+                    </a> 
                 </div>
                 </Carousel>
 

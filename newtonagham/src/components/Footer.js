@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Grid, Paper, Typography } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import TwitterIcon from '@mui/icons-material/Twitter';
 
 import { makeStyles } from '@mui/styles';
@@ -46,17 +46,6 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
     return(
         <React.Fragment>
-            {/* <Grid container className={classes.banner}> */}
-            {/* <div className={classes.banner}> */}
-            {/* <img src={footerImage} alt="footer_image" style={{width: '100%', height:'57vh', objectFit: 'cover'}} /> */}
-            {/* </div> */}
-                
-            {/* </Grid> */}
-
-            {/* <Grid style={{backgroundImage: `url(${footerImage})`, width: '100%', height:'60vh', objectFit: 'cover'}}> */}
-            
-            {/* <Grid style={{backgroundColor: '#266ebc', width: '100', objectFit: 'cover'}}> */}
-
             <Grid container
               direction="row"
               justifyContent="center"
@@ -136,9 +125,6 @@ const useStyles = makeStyles((theme) => ({
             </Grid>
 
             </Grid>
-            {/* </Grid> */}
         </React.Fragment>
-        
-
     );
   }
