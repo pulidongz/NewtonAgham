@@ -26,7 +26,8 @@ const useStyles = makeStyles({
       height: 200,
     },
     cardContent: {
-        maxHeight: 200,
+        // height: 140,
+        minHeight: 80,
         textAlign: "center",
     },
     dialogContent: {
