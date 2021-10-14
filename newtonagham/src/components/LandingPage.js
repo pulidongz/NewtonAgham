@@ -83,7 +83,7 @@ export default function LandingPage() {
                         PH Partners:
                     </Typography>
                 
-                    <img src={phpartners} alt="Philippine Partners" style={{width: '40%', height: 'auto',  maxWidth: 700}}/>
+                    <img src={phpartners} alt="Philippine Partners" style={{width: '25%', height: 'auto',  maxWidth: 700}}/>
                     
                 </Collapse>
 

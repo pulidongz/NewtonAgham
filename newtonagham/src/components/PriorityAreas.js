@@ -156,10 +156,10 @@ export default function PriorityAreas(props){
         {/* PDF VIEWER MODAL */}
         <Dialog onClose={closeModal} open={openPdfModal} classes={{paper : classes.pdfModal}}>
         <DialogContent style={{padding: 0}}>
-            <iframe src={url} title="title" width="100%" height='700' frameBorder="0"></iframe>
-            <Grid style={{textAlign: 'center', padding: 7}}>
+            <Grid style={{textAlign: 'center', padding: 10}}>
                 <Button variant="contained" onClick={(e) => openPDFNextTab(url)} >View Full Size</Button>
             </Grid>
+            <iframe src={url} title="title" width="100%" height='700' frameBorder="0"></iframe>
         </DialogContent>
         </Dialog>
 
