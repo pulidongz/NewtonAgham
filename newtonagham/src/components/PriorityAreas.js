@@ -26,8 +26,8 @@ const useStyles = makeStyles({
       height: 200,
     },
     cardContent: {
-        height: 75,
-        textAlign: "center"
+        maxHeight: 200,
+        textAlign: "center",
     },
     dialogContent: {
         position: 'relative',
@@ -102,7 +102,7 @@ export default function PriorityAreas(props){
                                             image={posters.thumbnail}
                                             title={posters.title}
                                             />
-                                            <CardContent className={classes.cardContent}>
+                                            <CardContent className={classes.cardContent} >
                                                 <Typography variant="body2" color="text.secondary">
                                                 {posters.title}
                                                 </Typography>

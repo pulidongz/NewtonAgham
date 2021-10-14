@@ -83,7 +83,7 @@ export default function LandingPage() {
                         PH Partners:
                     </Typography>
                 
-                    <img src={phpartners} alt="Philippine Partners" style={{width: '25%', height: 'auto',  maxWidth: 700}}/>
+                    <img src={phpartners} alt="Philippine Partners" style={{width: '30%', height: 'auto',  maxWidth: 700}}/>
                     
                 </Collapse>
 
@@ -133,7 +133,7 @@ export default function LandingPage() {
                 <Typography variant="body1" display="block" gutterBottom>
                     Feel free to also check out the some of the publications resulting from the Newton Fund / Newton Agham Fund supported initiatives which you can find here:
                 </Typography>
-                <Typography variant="body1" display="block" gutterBottom>
+                <Typography variant="body1" display="block" gutterBottom style={{paddingTop: 20, paddinBottom: 50}}>
                     <a href="https://gtr.ukri.org/" target="_blank" rel="noreferrer">UKRI Gateway to Research</a>
                     <br/>
                     <a href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme/publications/grantees?fbclid=IwAR0LTMXrmEG0_DBvI5-EdO7HsySDTI4svIZlJhIxPAEcRYdDEp1MXWeMsCg" target="_blank" rel="noreferrer">Newton Agham Grantees Publications</a>
