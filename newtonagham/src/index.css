@@ -33,3 +33,7 @@ code {
 .nodecorate:hover { 
   color: lightseagreen !important;
 }
+
+.carousel .slide .legend {
+  background: #266ebc !important;
+}

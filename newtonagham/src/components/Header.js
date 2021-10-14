@@ -44,7 +44,7 @@ export default function Header() {
                             <source src={bannerVid} type="video/mp4" />
                         </video>
                         <a href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme/virtual-reception?fbclid=IwAR0PSb1ojJJPLwP9fDnbBNNWfeQE7x24pZJ353b7CIpjg57kKUYE8dbrznM" target="_blank" rel="noreferrer">
-                            <p className="legend" style={{width: '20vh', bottom: 20, marginLeft: '-10vh'}}>Visit for more details</p>
+                            <p className="legend" style={{width: '20vh', bottom: 20, marginLeft: '-10vh'}}>VISIT</p>
                         </a>
                     </Grid>
                 </div>
