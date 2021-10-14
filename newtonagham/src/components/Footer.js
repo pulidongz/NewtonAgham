@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
             <Grid container
               direction="row"
               justifyContent="center"
-              alignItems="center" style={{backgroundColor: '#266ebc', width: '100%', position:'relative', marginTop: -200, padding: 40}}>
+              alignItems="center" style={{backgroundColor: '#266ebc', width: '100%', position:'relative', padding: 40}}>
               
               {/* TEXT GRID LEFT*/}
               <Grid container direction="column" justifyContent="flex-start" alignItems="flex-start" xs={12} md={3} lg={3}>
