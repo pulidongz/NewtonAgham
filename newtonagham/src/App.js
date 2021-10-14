@@ -1,11 +1,10 @@
-import React, {useState, useContext, useEffect} from "react";
+import React from "react";
 import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
-import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import './App.css';
 
 import LandingPage from "./components/LandingPage.js";
-import NewtonAgham from "./components/NewtonAgham.js";
 
 const theme = createTheme({
   typography: {
@@ -57,8 +56,6 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route exact path="/newtonagham" component={NewtonAgham} />
-          <Route exact path="/newtonagham/:id" component={NewtonAgham} />
         </Switch>
       </Router>
     </ThemeProvider>
