@@ -60,136 +60,67 @@ const useStyles = makeStyles((theme) => ({
             <Grid container
               direction="row"
               justifyContent="center"
-              alignItems="center" style={{backgroundColor: '#266ebc', width: '100%', position:'relative', marginTop: -200}}>
+              alignItems="center" style={{backgroundColor: '#266ebc', width: '100%', position:'relative', marginTop: -200, padding: 40}}>
               
-
-              {/* UK GRID */}
-              <Grid container spacing={0}
-              direction="row"
-              justifyContent="flex-end"
-              alignItems="flex-start" xs={12} md={4} lg={4}>
-
-                {/* UK Partners */}
-                <Grid container direction="row" justifyContent="center" alignItems="flex-start">
-                  <Grid item>
-                    <Typography variant="h5" className={classes.whiteFont}>
-                        UK Partners:
-                    </Typography>
-                  </Grid>
+              {/* TEXT GRID LEFT*/}
+              <Grid container direction="column" justifyContent="flex-start" alignItems="flex-start" xs={12} md={3} lg={3}>
+                <Grid item xs={12} style={{paddingBottom: 30}}>
+                  <Typography variant="body1" className={classes.whiteFont}>
+                      <a className="nodecorate" href="https://www.newton-gcrf.org/impact/where-we-work/philippines/" 
+                      target="_blank" rel="noreferrer">
+                        About Newton Agham Fund</a>
+                  </Typography>
                 </Grid>
-
-                {/* UK LOGOS */}
-                <Grid container direction="row" justifyContent="center" alignItems="center">
-                  <Grid item xs={12} md={6} lg={6}>
-                    <img src={britishCouncil} alt="britishCouncil" style={{width: 200, height:'40%', objectFit: 'cover'}} />
-                  </Grid>
-                  <Grid item xs={12} md={6} lg={6}>
-                    <img src={raeng} alt="raeng" style={{width: 200, height:'40%', objectFit: 'cover'}} />
-                  </Grid>
-                  <Grid item xs={12} md={6} lg={6}>
-                    <img src={metOffice} alt="metOffice" style={{width: 200, height:'30%', objectFit: 'cover'}} />
-                  </Grid>
-                  <Grid xs={12} md={6} lg={6}>
-                    <img src={bbsrc} alt="bbsrc" style={{width: 200, height:'40%', objectFit: 'cover'}} />
-                  </Grid>
-                  <Grid item xs={12} md={6} lg={6}>
-                    <img src={mrc} alt="mrc" style={{width: 200, height:'40%', objectFit: 'cover'}} />
-                  </Grid>
-                  <Grid xs={12} md={6} lg={6}>
-                    <img src={nerc} alt="nerc" style={{width: 200, height:'40%', objectFit: 'cover'}} />
-                  </Grid>
-                  <Grid xs={12} md={6} lg={6}>
-                    <img src={innovateUk} alt="innovateUk" style={{width: 200, height:'40%', objectFit: 'cover'}} />
-                  </Grid>
-                  <Grid xs={12} md={6} lg={6}>
-                    <img src={ukri} alt="ukri" style={{width: 200, height:'40%', objectFit: 'cover'}} />
-                  </Grid>
-                </Grid>
-              </Grid>
-
-              {/* PH GRID */}
-              <Grid container spacing={2}
-              direction="column"
-              justifyContent="center"
-              alignItems="center" xs={12} md={4} lg={4}>
-                <Grid item>
-                <Typography variant="h5" className={classes.whiteFont}>
-                   PH Partners:
-                </Typography>
-                </Grid>
-                <Grid item>
-                  <img src={dost} alt="dost" style={{width: 75, height:'20%', objectFit: 'cover'}} />
-                </Grid>
-                <Grid item >
-                  <img src={ched} alt="ched" style={{width: 75, height:'20%', objectFit: 'cover'}} />
-                </Grid>
-                <Grid item >
-                  <img src={da} alt="da" style={{width: 75, height:'20%', objectFit: 'cover'}} />
-                </Grid>
-              </Grid>
-              
-              {/* TEXT GRID */}
-              <Grid container
-              direction="column"
-              justifyContent="center"
-              alignItems="flex-start" xs={12} md={3} lg={3}>
-
+                
                 <Grid item xs={12}>
-                <Typography variant="h6" className={classes.whiteFont}>
-                    <a className="nodecorate" href="https://www.newton-gcrf.org/impact/where-we-work/philippines/" 
-                    target="_blank" rel="noreferrer">
-                      About Newton Agham Fund</a>
-                </Typography>
-                </Grid>
-
-                <Grid item xs={12}>
-                <Typography variant="h6" className={classes.whiteFont}>
+                <Typography variant="body1" className={classes.whiteFont}>
                     Connect with us
                 </Typography>
                 </Grid>
-
                 {/* //Twitter logo */}
                 <Grid item xs={12}>
-                <Typography variant="h6" className={classes.whiteFont}>
+                <Typography variant="body1" className={classes.whiteFont}>
                   <a className="nodecorate" href="https://mobile.twitter.com/newtonfund?lang=en" 
                       target="_blank" rel="noreferrer">
                   <TwitterIcon /> Twitter
                   </a>
                 </Typography>
                 </Grid>
+            </Grid>
 
-
-                <Grid item xs={12} style={{paddingTop: 30}}>
-                <Typography variant="h6" className={classes.whiteFont}>
+            {/* //IMAGE GRID RIGHT */}
+            <Grid container direction="column" justifyContent="flex-start" alignItems="flex-start" xs={12} md={3} lg={3}>
+            <Grid item xs={12} style={{paddingTop: 30}}>
+                <Typography variant="body1" className={classes.whiteFont}>
                     For inquiries and information:
                 </Typography>
                 </Grid>
 
                 <Grid item xs={12} style={{paddingTop: 20}}>
-                <Typography variant="h6" className={classes.whiteFont}>
+                <Typography variant="body1" className={classes.whiteFont}>
                     Sarah Esguerra
                 </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                <Typography variant="h6" className={classes.whiteFont}>
+                <Typography variant="body1" className={classes.whiteFont}>
                     British Embassy Manila
                 </Typography>
                 </Grid>
 
                 <Grid item xs={12}>
-                <Typography variant="h6" className={classes.whiteFont}>
+                <Typography variant="body1" className={classes.whiteFont}>
                   <a className="nodecorate" href="mailto:sarah.esguerra@fcdo.gov.uk">sarah.esguerra@fcdo.gov.uk</a>
                 </Typography>
                 </Grid>
 
                 <Grid item xs={12} style={{paddingTop: 20}}>
-                <Typography variant="h6" className={classes.whiteFont}>
+                <Typography variant="body1" className={classes.whiteFont}>
                     Danie Son Gonzalvo
                 </Typography>
                 </Grid>
 
                 <Grid item xs={12}>
-                <Typography variant="h6" className={classes.whiteFont}>
+                <Typography variant="body1" className={classes.whiteFont}>
                     <a className="nodecorate" href="https://www.britishcouncil.ph/programmes/education/newton-agham-programme" 
                       target="_blank" rel="noreferrer">British Council Philippines
                     </a>
@@ -197,13 +128,12 @@ const useStyles = makeStyles((theme) => ({
                 </Grid>
 
                 <Grid item xs={12}>
-                <Typography variant="h6" className={classes.whiteFont}>
+                <Typography variant="body1" className={classes.whiteFont}>
                 <a className="nodecorate" href="mailto:danieson.gonzalvo@britishcouncil.org.ph">danieson.gonzalvo@britishcouncil.org.ph</a>
                 </Typography>
                 </Grid>
 
             </Grid>
-
 
             </Grid>
             {/* </Grid> */}
